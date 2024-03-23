@@ -14,11 +14,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
             <h1 className="w-full text-3xl font-bold text-indigo-500">PerfectPitch.</h1>
             <ul className="hidden md:flex">
-                <li className="p-4"><Link to="/">Home</Link></li>
-                <li className="p-4">About</li>
-                <li className="p-4">Contact</li>
-                <li className="p-4">Login</li>
-                <li className="p-4">Register</li>
+                <li className="p-4 hover:text-indigo-400"><Link to="/">Home</Link></li>
+                <li className="p-4 hover:text-indigo-400"><Link to="/">About</Link></li>
+                <li className="p-4 hover:text-indigo-400"><Link to="/">Contact</Link></li>
+                <li className="p-4 hover:text-indigo-400"><Link to="/login">Login</Link></li>
+                <li className="p-4 hover:text-indigo-400"><Link to="/register">Register</Link></li>
             </ul>
             <div onClick={handleNav} className="block md:hidden">
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -31,11 +31,11 @@ const Navbar = () => {
                 }
             >
                 <h1 className="w-full text-3xl font-bold text-indigo-500 m-4">PerfectPitch.</h1>
-                <li className="p-4 border-b border-gray-600">Home</li>
-                <li className="p-4 border-b border-gray-600">Company</li>
-                <li className="p-4 border-b border-gray-600">Resources</li>
-                <li className="p-4 border-b border-gray-600">About</li>
-                <li className="p-4">Contact</li>
+                <li className="p-4 border-b border-gray-600 hover:text-indigo-400"><Link to="/">Home</Link></li>
+                <li className="p-4 border-b border-gray-600 hover:text-indigo-400"><Link to="/">About</Link></li>
+                <li className="p-4 border-b border-gray-600 hover:text-indigo-400"><Link to="/">Contact</Link></li>
+                <li className="p-4 border-b border-gray-600 hover:text-indigo-400"><Link to="/login">Login</Link></li>
+                <li className="p-4 hover:text-indigo-400"><Link to="/register">Register</Link></li>
             </ul>
         </div>
     );
