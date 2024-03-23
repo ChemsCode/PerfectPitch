@@ -104,7 +104,7 @@ export default function Register() {
                 <div className="mt-6">
                   <div className="flex justify-between mb-2">
                     <label
-                      htmlFor="password"
+                      htmlFor="confirm_password"
                       className="text-sm text-gray-600 "
                     >
                       Confirm Password
@@ -112,10 +112,10 @@ export default function Register() {
                   </div>
 
                   <input
-                    type="password"
-                    name="password"
-                    id="password"
-                    placeholder="Your Password"
+                    type="confirm_password"
+                    name="confirm_password"
+                    id="confirm_password"
+                    placeholder="Confirm Password"
                     className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg    focus:border-indigo-400 focus:ring-indigo-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>
