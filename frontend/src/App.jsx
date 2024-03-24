@@ -6,6 +6,7 @@ import Register from "./components/Registration/Register";
 import Home from "./components/Home";
 import InputPage from "./components/InputPage";
 import Test from "./components/Test";
+import FeedbackPage from "./components/FeedbackPage";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="register" element={<Register />} />
         <Route path="home" element={<Home />} />
         <Route path="input" element={<InputPage />} />
+        <Route path="feedback" element={<FeedbackPage />} />
 
         {/* Dev and Testing Purposes*/}
         <Route path="test" element={<Test />} />
