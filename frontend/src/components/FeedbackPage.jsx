@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import LayoutSWI from "./Dashboard/LayoutSWI";
 import LayoutTopSkills from "./Dashboard/LayoutTopSkills";
 import LayoutSTAR from "./Dashboard/LayoutSTAR";
+import GraphicalDashboard from "./GraphicalDashboard/GraphicalDashboard";
 
 function FeedbackPage() {
   const feedback = useLocation();
@@ -17,6 +18,8 @@ function FeedbackPage() {
 
   return (
     <div className="px-10 my-4 bg-slate-100">
+
+      <GraphicalDashboard fb={feedback.state.answer} qst={feedback.state.question} ans={feedback.state.interviewAnswer} />
 
       <LayoutSWI fb={feedback.state.answer.dict1} />
 
