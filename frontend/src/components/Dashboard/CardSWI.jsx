@@ -10,7 +10,7 @@ function SWCard({ icons, title, param1, param2 }) {
         >
           {icons}
         </h1>
-        <p className=" bg-indigo-500 rounded-lg  py-2 border-b mx-8 mt-8">
+        <p className=" bg-indigo-400 rounded-lg  py-2 border-b mx-8 mt-8">
           {title}
         </p>
         </div>

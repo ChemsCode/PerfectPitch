@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import LayoutSWI from "./Dashboard/LayoutSWI";
 import LayoutTopSkills from "./Dashboard/LayoutTopSkills";
+import LayoutSTAR from "./Dashboard/LayoutSTAR";
 
 function FeedbackPage() {
   const feedback = useLocation();
@@ -19,9 +20,13 @@ function FeedbackPage() {
 
       <LayoutSWI fb={feedback.state.answer.dict1} />
 
-      <h1 className="text-3xl font-bold text-center my-10">Top Skills</h1>
+      <h1 className="text-3xl font-bold text-center">Top Skills</h1>
 
       <LayoutTopSkills fb={feedback.state.answer.dict2} />
+
+      <h1 className="text-3xl font-bold text-center pt-10">STAR Method</h1>
+
+      <LayoutSTAR fb={feedback.state.answer.dict4} />
 
     </div>
   );

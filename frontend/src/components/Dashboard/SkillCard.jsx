@@ -12,7 +12,7 @@ function SkillCard({ icon, skill, desc }) {
         >
           {icon}
         </h1>
-        <p className=" bg-indigo-500 rounded-lg  py-2 border-b mx-8 mt-8">
+        <p className=" bg-indigo-400 rounded-lg  py-2 border-b mx-8 mt-8">
           {skill}
         </p>
         </div>
