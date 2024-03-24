@@ -11,7 +11,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="flex justify-around items-center h-24 max-w-[1750px] mx-auto px-10 text-white">
+        <div className="flex justify-around items-center h-20 max-w-[1750px] mx-auto px-10 text-white">
             <h1 className="w-full text-3xl font-bold text-indigo-500">PerfectPitch.</h1>
             <ul className="hidden md:flex">
                 <li className="p-4 hover:text-indigo-400"><Link to="/">Home</Link></li>
