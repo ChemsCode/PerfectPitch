@@ -96,12 +96,12 @@ export default function InputPage() {
   return (
     <>
       {loading ? (
-        <div className="w-full h-screen bg-white flex-">
+        <div className="w-full h-screen bg-white flex justify-center items-center">
           <ThreeDots
             visible={true}
             height="80"
             width="80"
-            color="#4fa94d"
+            color="#3730a3"
             radius="9"
             ariaLabel="three-dots-loading"
             wrapperStyle={{}}
