@@ -144,7 +144,7 @@ export default function InputPage() {
               <FontAwesomeIcon
                 icon={faCheck}
                 className={
-                  validInterviewQuestion ? "text-green-500 px-1.5" : "hidden"
+                  validInterviewQuestion ? "text-indigo-500 px-1.5" : "hidden"
                 }
               />
               <FontAwesomeIcon
@@ -187,7 +187,7 @@ export default function InputPage() {
             <label htmlFor="Answer">
               <FontAwesomeIcon
                 icon={faCheck}
-                className={validAnswer ? "text-green-500 px-1.5" : "hidden"}
+                className={validAnswer ? "text-indigo-500 px-1.5" : "hidden"}
               />
               <FontAwesomeIcon
                 icon={faTimes}

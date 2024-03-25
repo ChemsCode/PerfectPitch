@@ -5,7 +5,7 @@ export default function PopUp({improvedAns}) {
   return (
     <>
       <div
-        className="text-md cursor-pointer"
+        className="text-md cursor-pointer text-indigo-500 hover:text-indigo-700"
         type="button"
         onClick={() => setShowModal(true)}
       >
