@@ -16,11 +16,11 @@ function DoughnutChart({star, score} ) {
         data: [10-score, score],
         backgroundColor: [
           'rgba(255, 255, 255, 0.2)',
-          '#3830a344',
+          '#1100ff44',
         ],
         borderColor: [
           'rgba(255, 255, 255, 1)',
-          '#5449f0',
+          '#1100ff',
         ],
         borderWidth: 1,
       },

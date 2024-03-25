@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillCard({ icon, skill, desc }) {
   return (
-    <div className="col-span-1 row-span-1 shadow-xl flex flex-col p-4 my-4 rounded-lg duration-300 h-full w-full justify-between
+    <div className="col-span-1 row-span-1 shadow-xl flex flex-col p-4 py-10 rounded-lg duration-300 h-full w-full justify-between
      bg-white">
       <div className="text-center font-medium">
         <div>

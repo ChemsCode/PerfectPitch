@@ -4,6 +4,7 @@ import TimeCount from "./TimeCount";
 import LanguageRating from "./LanguageRating";
 import StarRating from "./StarRating";
 import DashboardHeader from "./DashboardHeader";
+import RadarChart from "./RadarChart";
 
 function GraphicalDashboard({ fb, qst, ans }) {
   const countWords = (ans) =>
@@ -20,6 +21,17 @@ function GraphicalDashboard({ fb, qst, ans }) {
         improvedA={fb.entireImprovedResponse}
       />
       <div className="grid grid-flow-row grid-flow-colum grid-rows-3 gap-5 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6  h-full w-full">
+        <div className="col-span-2 row-span-3 h-full w-full">
+          <RadarChart
+            com={fb.dict2.skill1[0]}
+            lead={fb.dict2.skill2[0]}
+            team={fb.dict2.skill3[0]}
+            crit={fb.dict2.skill4[0]}
+            int={fb.dict2.skill5[0]}
+            amb={fb.dict2.skill6[0]}
+            flex={fb.dict2.skill7[0]}
+          />
+        </div>
         <div className="col-span-1 row-span-1 h-full w-full">
           <WordCount numWords={countWords(ans)} />
         </div>

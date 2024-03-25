@@ -3,7 +3,7 @@ import STARCard from "./STARCard";
 
 function LayoutSTAR({fb}) {
   return (
-    <div className="grid grid-rows-4 gap-x-12 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 h-full w-full my-10 pb-10 ">
+    <div className="grid grid-rows-4 gap-x-12 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 h-full w-full gap-y-10 pb-10 pt-5">
       <div className="col-span-1 row-span-1 h-full w-full rounded-md">
         <STARCard STARTitle={"Situation"} starfb={fb.situation}/>
       </div>

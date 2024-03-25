@@ -21,13 +21,13 @@ function FeedbackPage() {
 
       <GraphicalDashboard fb={feedback.state.answer} qst={feedback.state.question} ans={feedback.state.interviewAnswer} />
 
-      <LayoutSWI fb={feedback.state.answer.dict1} />
+      <LayoutSWI fb={feedback.state.answer.dict1} className="p-10"/>
 
       <h1 className="text-3xl font-bold text-center">Top Skills</h1>
 
       <LayoutTopSkills fb={feedback.state.answer.dict2} />
 
-      <h1 className="text-3xl font-bold text-center pt-10">STAR Method</h1>
+      <h1 className="text-3xl font-bold text-center">STAR Method</h1>
 
       <LayoutSTAR fb={feedback.state.answer.dict4} />
 

@@ -6,7 +6,7 @@ import { GiSkeleton } from "react-icons/gi";
 
 function LayoutSWI( {fb} ) {
   return (
-    <div className="grid grid-flow-row grid-flow-colum grid-rows-2 gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  h-full w-full p-10 rounded-md">
+    <div className="grid grid-flow-row grid-flow-colum grid-rows-2 gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  h-full py-10 w-full rounded-md">
       <div className="col-span-1 row-span-1 h-full w-full bg-white rounded-md">
         <CardSWI
           icons={<GiBiceps />}
