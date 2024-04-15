@@ -76,7 +76,7 @@ export default function Login() {
                 </div>
 
                 <div className="mt-6">
-                  <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-indigo-500 rounded-lg hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400 focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
+                  <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 bg-indigo-500 rounded-lg hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400 focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
                     Sign in
                   </button>
                 </div>
